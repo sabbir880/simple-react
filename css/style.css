@@ -1,0 +1,30 @@
+.content{
+    background-color: rgb(216, 205, 226);
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid rgb(136, 130, 126);
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    transition:transform .3s ;
+}
+.content img {
+  width: 200px;
+  border: 4px solid rgb(255, 255, 255);
+  box-shadow: 10px 10px 40px gray;
+  margin: 5px;
+  border-radius: 5px;
+}
+.content:hover{
+    transform: scale(1.1);
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+} */
