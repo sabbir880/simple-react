@@ -8,7 +8,7 @@ const countriesDiteals = countries => {
     console.log(countries)
     const countriesHtml = countries.map( country => getCountriesHtml(country));
     const container =document.getElementById('countries');
-    container.innerHTML = countriesHtml;
+    container.innerHTML = countriesHtml.join(' ');
 };
 
 const getCountriesHtml = country =>{    
